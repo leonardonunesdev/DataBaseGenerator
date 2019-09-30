@@ -1,0 +1,113 @@
+<?xml version="1.0" standalone="yes"?>
+<DocumentElement>
+  <Base_x0020_de_x0020_Dados>
+    <Nome>Paciente 1</Nome>
+    <Febre>37</Febre>
+    <Tosse_x0020_seca>Sim</Tosse_x0020_seca>
+    <Tosse_x0020_catarro_x0020_amarelado>Sim</Tosse_x0020_catarro_x0020_amarelado>
+    <Tosse_x0020_catarro_x0020_esverdeado>Sim</Tosse_x0020_catarro_x0020_esverdeado>
+    <Falta_x0020_ar_x0020_e_x0020_dificuldade_x0020_respirar>Sim</Falta_x0020_ar_x0020_e_x0020_dificuldade_x0020_respirar>
+    <Dor_x0020_peito>Sim</Dor_x0020_peito>
+    <Dor_x0020_tórax>Sim</Dor_x0020_tórax>
+    <Mal-estar_x0020_generalizado>Sim</Mal-estar_x0020_generalizado>
+  </Base_x0020_de_x0020_Dados>
+  <Base_x0020_de_x0020_Dados>
+    <Nome>Paciente 2</Nome>
+    <Febre>37</Febre>
+    <Tosse_x0020_seca>Sim</Tosse_x0020_seca>
+    <Tosse_x0020_catarro_x0020_amarelado>Sim</Tosse_x0020_catarro_x0020_amarelado>
+    <Tosse_x0020_catarro_x0020_esverdeado>Sim</Tosse_x0020_catarro_x0020_esverdeado>
+    <Falta_x0020_ar_x0020_e_x0020_dificuldade_x0020_respirar>Sim</Falta_x0020_ar_x0020_e_x0020_dificuldade_x0020_respirar>
+    <Dor_x0020_peito>Sim</Dor_x0020_peito>
+    <Dor_x0020_tórax>Sim</Dor_x0020_tórax>
+    <Mal-estar_x0020_generalizado>Sim</Mal-estar_x0020_generalizado>
+  </Base_x0020_de_x0020_Dados>
+  <Base_x0020_de_x0020_Dados>
+    <Nome>Paciente 3</Nome>
+    <Febre>37</Febre>
+    <Tosse_x0020_seca>Sim</Tosse_x0020_seca>
+    <Tosse_x0020_catarro_x0020_amarelado>Sim</Tosse_x0020_catarro_x0020_amarelado>
+    <Tosse_x0020_catarro_x0020_esverdeado>Sim</Tosse_x0020_catarro_x0020_esverdeado>
+    <Falta_x0020_ar_x0020_e_x0020_dificuldade_x0020_respirar>Sim</Falta_x0020_ar_x0020_e_x0020_dificuldade_x0020_respirar>
+    <Dor_x0020_peito>Sim</Dor_x0020_peito>
+    <Dor_x0020_tórax>Sim</Dor_x0020_tórax>
+    <Mal-estar_x0020_generalizado>Sim</Mal-estar_x0020_generalizado>
+  </Base_x0020_de_x0020_Dados>
+  <Base_x0020_de_x0020_Dados>
+    <Nome>Paciente 4</Nome>
+    <Febre>37</Febre>
+    <Tosse_x0020_seca>Sim</Tosse_x0020_seca>
+    <Tosse_x0020_catarro_x0020_amarelado>Sim</Tosse_x0020_catarro_x0020_amarelado>
+    <Tosse_x0020_catarro_x0020_esverdeado>Sim</Tosse_x0020_catarro_x0020_esverdeado>
+    <Falta_x0020_ar_x0020_e_x0020_dificuldade_x0020_respirar>Sim</Falta_x0020_ar_x0020_e_x0020_dificuldade_x0020_respirar>
+    <Dor_x0020_peito>Sim</Dor_x0020_peito>
+    <Dor_x0020_tórax>Sim</Dor_x0020_tórax>
+    <Mal-estar_x0020_generalizado>Sim</Mal-estar_x0020_generalizado>
+  </Base_x0020_de_x0020_Dados>
+  <Base_x0020_de_x0020_Dados>
+    <Nome>Paciente 5</Nome>
+    <Febre>37</Febre>
+    <Tosse_x0020_seca>Sim</Tosse_x0020_seca>
+    <Tosse_x0020_catarro_x0020_amarelado>Sim</Tosse_x0020_catarro_x0020_amarelado>
+    <Tosse_x0020_catarro_x0020_esverdeado>Sim</Tosse_x0020_catarro_x0020_esverdeado>
+    <Falta_x0020_ar_x0020_e_x0020_dificuldade_x0020_respirar>Sim</Falta_x0020_ar_x0020_e_x0020_dificuldade_x0020_respirar>
+    <Dor_x0020_peito>Sim</Dor_x0020_peito>
+    <Dor_x0020_tórax>Sim</Dor_x0020_tórax>
+    <Mal-estar_x0020_generalizado>Sim</Mal-estar_x0020_generalizado>
+  </Base_x0020_de_x0020_Dados>
+  <Base_x0020_de_x0020_Dados>
+    <Nome>Paciente 6</Nome>
+    <Febre>37</Febre>
+    <Tosse_x0020_seca>Sim</Tosse_x0020_seca>
+    <Tosse_x0020_catarro_x0020_amarelado>Sim</Tosse_x0020_catarro_x0020_amarelado>
+    <Tosse_x0020_catarro_x0020_esverdeado>Sim</Tosse_x0020_catarro_x0020_esverdeado>
+    <Falta_x0020_ar_x0020_e_x0020_dificuldade_x0020_respirar>Sim</Falta_x0020_ar_x0020_e_x0020_dificuldade_x0020_respirar>
+    <Dor_x0020_peito>Sim</Dor_x0020_peito>
+    <Dor_x0020_tórax>Sim</Dor_x0020_tórax>
+    <Mal-estar_x0020_generalizado>Sim</Mal-estar_x0020_generalizado>
+  </Base_x0020_de_x0020_Dados>
+  <Base_x0020_de_x0020_Dados>
+    <Nome>Paciente 7</Nome>
+    <Febre>37</Febre>
+    <Tosse_x0020_seca>Sim</Tosse_x0020_seca>
+    <Tosse_x0020_catarro_x0020_amarelado>Sim</Tosse_x0020_catarro_x0020_amarelado>
+    <Tosse_x0020_catarro_x0020_esverdeado>Sim</Tosse_x0020_catarro_x0020_esverdeado>
+    <Falta_x0020_ar_x0020_e_x0020_dificuldade_x0020_respirar>Sim</Falta_x0020_ar_x0020_e_x0020_dificuldade_x0020_respirar>
+    <Dor_x0020_peito>Sim</Dor_x0020_peito>
+    <Dor_x0020_tórax>Sim</Dor_x0020_tórax>
+    <Mal-estar_x0020_generalizado>Sim</Mal-estar_x0020_generalizado>
+  </Base_x0020_de_x0020_Dados>
+  <Base_x0020_de_x0020_Dados>
+    <Nome>Paciente 8</Nome>
+    <Febre>37</Febre>
+    <Tosse_x0020_seca>Sim</Tosse_x0020_seca>
+    <Tosse_x0020_catarro_x0020_amarelado>Sim</Tosse_x0020_catarro_x0020_amarelado>
+    <Tosse_x0020_catarro_x0020_esverdeado>Sim</Tosse_x0020_catarro_x0020_esverdeado>
+    <Falta_x0020_ar_x0020_e_x0020_dificuldade_x0020_respirar>Sim</Falta_x0020_ar_x0020_e_x0020_dificuldade_x0020_respirar>
+    <Dor_x0020_peito>Sim</Dor_x0020_peito>
+    <Dor_x0020_tórax>Sim</Dor_x0020_tórax>
+    <Mal-estar_x0020_generalizado>Sim</Mal-estar_x0020_generalizado>
+  </Base_x0020_de_x0020_Dados>
+  <Base_x0020_de_x0020_Dados>
+    <Nome>Paciente 9</Nome>
+    <Febre>37</Febre>
+    <Tosse_x0020_seca>Sim</Tosse_x0020_seca>
+    <Tosse_x0020_catarro_x0020_amarelado>Sim</Tosse_x0020_catarro_x0020_amarelado>
+    <Tosse_x0020_catarro_x0020_esverdeado>Sim</Tosse_x0020_catarro_x0020_esverdeado>
+    <Falta_x0020_ar_x0020_e_x0020_dificuldade_x0020_respirar>Sim</Falta_x0020_ar_x0020_e_x0020_dificuldade_x0020_respirar>
+    <Dor_x0020_peito>Sim</Dor_x0020_peito>
+    <Dor_x0020_tórax>Sim</Dor_x0020_tórax>
+    <Mal-estar_x0020_generalizado>Sim</Mal-estar_x0020_generalizado>
+  </Base_x0020_de_x0020_Dados>
+  <Base_x0020_de_x0020_Dados>
+    <Nome>Paciente 10</Nome>
+    <Febre>37</Febre>
+    <Tosse_x0020_seca>Sim</Tosse_x0020_seca>
+    <Tosse_x0020_catarro_x0020_amarelado>Sim</Tosse_x0020_catarro_x0020_amarelado>
+    <Tosse_x0020_catarro_x0020_esverdeado>Sim</Tosse_x0020_catarro_x0020_esverdeado>
+    <Falta_x0020_ar_x0020_e_x0020_dificuldade_x0020_respirar>Sim</Falta_x0020_ar_x0020_e_x0020_dificuldade_x0020_respirar>
+    <Dor_x0020_peito>Sim</Dor_x0020_peito>
+    <Dor_x0020_tórax>Sim</Dor_x0020_tórax>
+    <Mal-estar_x0020_generalizado>Sim</Mal-estar_x0020_generalizado>
+  </Base_x0020_de_x0020_Dados>
+</DocumentElement>
