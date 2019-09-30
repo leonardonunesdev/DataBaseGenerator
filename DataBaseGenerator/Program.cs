@@ -23,20 +23,57 @@ namespace DataBaseGenerator
             for (int numRow = 0; numRow < 1000; numRow++)
             {
                 Row row = new Row();
+                var intTosse = functions.randomInt();
+                var intDor = functions.randomInt();
 
                 row.nome = "Paciente " + (numRow + 1);
-                row.febre = functions.randomDouble();
-                row.tosseSeca = functions.randomBoolean() ? "Sim" : "Nao";
-                row.tosseCatarroAmarelo = functions.randomBoolean() ? "Sim" : "Nao";
-                row.tosseCatarroEsverdeado = functions.randomBoolean() ? "Sim" : "Nao";
+                row.febre = functions.randomDouble() > 37.5 ? "37,5 +" : "37,5 -";
+
+                if (intTosse <= 25)
+                    row.tosse = "Sem tosse";
+                else if (intTosse > 25 && intTosse < 50)
+                    row.tosse = "Tosse seca";
+                else if(intTosse >= 50 && intTosse < 75)
+                    row.tosse = "Tosse catarro amarelado";
+                else if(intTosse >= 75)
+                    row.tosse = "Tosse catarro esverdeado";
+
                 row.faltaArEDificuldadeRespirar = functions.randomBoolean() ? "Sim" : "Nao";
-                row.dorPeito = functions.randomBoolean() ? "Sim" : "Nao";
-                row.dorTorax = functions.randomBoolean() ? "Sim" : "Nao";
+
+                if (intDor <= 25)
+                    row.dor = "Sem dor";
+                else if (intDor > 25 && intDor < 50)
+                    row.dor = "Torax";
+                else if (intDor >= 50 && intDor < 75)
+                    row.dor = "Peito";
+                else if (intDor >= 75)
+                    row.dor = "Torax e peito";
+
                 row.malEstarGeneralizado = functions.randomBoolean() ? "Sim" : "Nao";
                 row.fraqueza = functions.randomBoolean() ? "Sim" : "Nao";
                 row.suorInteso = functions.randomBoolean() ? "Sim" : "Nao";
                 row.nauseaEVomito = functions.randomBoolean() ? "Sim" : "Nao";
-                row.pneumonia = functions.randomBoolean() ? "1" : "0";
+
+                if (row.febre.Equals("37,5 +") &&
+                    !row.tosse.Equals("Sem tosse") &&
+                    row.faltaArEDificuldadeRespirar.Equals("Sim") &&
+                    !row.dor.Equals("Sem dor") &&
+                    row.malEstarGeneralizado.Equals("Sim") &&
+                    row.fraqueza.Equals("Sim") &&
+                    row.suorInteso.Equals("Sim") &&
+                    row.nauseaEVomito.Equals("Sim"))
+                    row.pneumonia = "1";
+                else if(row.febre.Equals("37,5 -") &&
+                    row.tosse.Equals("Sem tosse") &&
+                    row.faltaArEDificuldadeRespirar.Equals("Nao") &&
+                    row.dor.Equals("Sem dor") &&
+                    row.malEstarGeneralizado.Equals("Nao") &&
+                    row.fraqueza.Equals("Nao") &&
+                    row.suorInteso.Equals("Nao") &&
+                    row.nauseaEVomito.Equals("Nao"))
+                    row.pneumonia = "0";
+                else
+                    row.pneumonia = functions.randomBoolean() ? "1" : "0";
 
                 rows.Add(row);
             }
