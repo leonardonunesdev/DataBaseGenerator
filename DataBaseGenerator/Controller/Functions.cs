@@ -75,7 +75,7 @@ namespace DataBaseGenerator.Controller
                 Console.WriteLine("Número rows:" + numRow.ToString());
             }
 
-            xlWorkBook.SaveAs("C:\\Users\\leonardo.santos\\Desktop\\TCC\\AprioriProject\\Base de dados.xls", Excel.XlFileFormat.xlWorkbookNormal, misValue, misValue, misValue, misValue, Excel.XlSaveAsAccessMode.xlExclusive, misValue, misValue, misValue, misValue, misValue);
+            xlWorkBook.SaveAs("C:\\Users\\Leonardo dos Santos\\Desktop\\Minerador de dados\\Base de dados.xls", Excel.XlFileFormat.xlWorkbookNormal, misValue, misValue, misValue, misValue, Excel.XlSaveAsAccessMode.xlExclusive, misValue, misValue, misValue, misValue, misValue);
             xlWorkBook.Close(true, misValue, misValue);
             xlApp.Quit();
 

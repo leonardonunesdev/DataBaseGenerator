@@ -38,7 +38,7 @@ namespace DataBaseGenerator
                 else if(intTosse >= 75)
                     row.tosse = "Tosse catarro esverdeado";
 
-                row.faltaArEDificuldadeRespirar = functions.randomBoolean() ? "Sim" : "Nao";
+                row.faltaArEDificuldadeRespirar = functions.randomBoolean() ? "Falta ar" : "Repiracao normal";
 
                 if (intDor <= 25)
                     row.dor = "Sem dor";
@@ -49,10 +49,10 @@ namespace DataBaseGenerator
                 else if (intDor >= 75)
                     row.dor = "Torax e peito";
 
-                row.malEstarGeneralizado = functions.randomBoolean() ? "Sim" : "Nao";
+                row.malEstarGeneralizado = functions.randomBoolean() ? "Mal estar" : "Sem mal estar";
                 row.fraqueza = functions.randomBoolean() ? "Sim" : "Nao";
-                row.suorInteso = functions.randomBoolean() ? "Sim" : "Nao";
-                row.nauseaEVomito = functions.randomBoolean() ? "Sim" : "Nao";
+                row.suorInteso = functions.randomBoolean() ? "Normal" : "Intenso";
+                row.nauseaEVomito = functions.randomBoolean() ? "Nausea" : "Sem nausea";
 
                 if (row.febre.Equals("37,5 +") &&
                     !row.tosse.Equals("Sem tosse") &&
