@@ -25,9 +25,16 @@ namespace DataBaseGenerator
                 Row row = new Row();
                 var intTosse = functions.randomInt();
                 var intDor = functions.randomInt();
+                var intFebre = functions.randomInt();
 
                 row.nome = "Paciente " + (numRow + 1);
-                row.febre = functions.randomDouble() > 37.5 ? "37,5 +" : "37,5 -";
+
+                if (intFebre <= 33)
+                    row.febre = "37,5 -";
+                else if (intFebre > 33 && intFebre <= 66)
+                    row.febre = "Normal";
+                else
+                    row.febre = "37,5 +";
 
                 if (intTosse <= 25)
                     row.tosse = "Sem tosse";
@@ -54,7 +61,7 @@ namespace DataBaseGenerator
                 row.suorInteso = functions.randomBoolean() ? "Normal" : "Intenso";
                 row.nauseaEVomito = functions.randomBoolean() ? "Nausea" : "Sem nausea";
 
-                if (row.febre.Equals("37,5 +") &&
+                if ((row.febre.Equals("37,5 +") || row.febre.Equals("37,5 -")) &&
                     !row.tosse.Equals("Sem tosse") &&
                     row.faltaArEDificuldadeRespirar.Equals("Sim") &&
                     !row.dor.Equals("Sem dor") &&
@@ -63,7 +70,7 @@ namespace DataBaseGenerator
                     row.suorInteso.Equals("Sim") &&
                     row.nauseaEVomito.Equals("Sim"))
                     row.pneumonia = "1";
-                else if(row.febre.Equals("37,5 -") &&
+                else if(row.febre.Equals("Normal") &&
                     row.tosse.Equals("Sem tosse") &&
                     row.faltaArEDificuldadeRespirar.Equals("Nao") &&
                     row.dor.Equals("Sem dor") &&
