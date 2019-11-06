@@ -151,9 +151,9 @@ namespace DataBaseGenerator.Controller
 
             //Criar os arquivos Excel's no caminho C:\\Users\\Leonardo dos Santos\\Desktop\\
             if (tipoExcel.Equals("Banco de dados"))
-                xlWorkBook.SaveAs("C:\\Users\\Leonardo dos Santos\\Desktop\\Base de dados.xls", Excel.XlFileFormat.xlWorkbookNormal, misValue, misValue, misValue, misValue, Excel.XlSaveAsAccessMode.xlExclusive, misValue, misValue, misValue, misValue, misValue);
+                xlWorkBook.SaveAs("C:\\Users\\Leonardo dos Santos\\Desktop\\Base de dados.csv", Excel.XlFileFormat.xlCSV, misValue, misValue, misValue, misValue, Excel.XlSaveAsAccessMode.xlExclusive, misValue, misValue, misValue, misValue, misValue);
             else
-                xlWorkBook.SaveAs("C:\\Users\\Leonardo dos Santos\\Desktop\\Entrada usuários.xls", Excel.XlFileFormat.xlWorkbookNormal, misValue, misValue, misValue, misValue, Excel.XlSaveAsAccessMode.xlExclusive, misValue, misValue, misValue, misValue, misValue);
+                xlWorkBook.SaveAs("C:\\Users\\Leonardo dos Santos\\Desktop\\Entrada usuários.csv", Excel.XlFileFormat.xlCSV, misValue, misValue, misValue, misValue, Excel.XlSaveAsAccessMode.xlExclusive, misValue, misValue, misValue, misValue, misValue);
 
             xlWorkBook.Close(true, misValue, misValue);
             xlApp.Quit();
