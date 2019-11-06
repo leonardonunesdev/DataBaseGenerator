@@ -6,9 +6,8 @@ using System.Threading.Tasks;
 
 namespace DataBaseGenerator.Model
 {
-    class Row
+    class Row //Objeto para mapear cada linha dos Excel's
     {
-        public string nome { get; set; }
         public string febre { get; set; }
         public string tosse{ get; set; }
         public string faltaArEDificuldadeRespirar{ get; set; }
